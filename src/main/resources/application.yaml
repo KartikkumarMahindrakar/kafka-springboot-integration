@@ -3,3 +3,6 @@ spring:
     streams:
       application-id: example-app
       bootstrap-servers: localhost:9092
+management:
+  endpoints.web.exposure.include:
+    - metrics
